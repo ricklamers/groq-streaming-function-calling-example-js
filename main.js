@@ -11,6 +11,7 @@ async function main() {
       },
       {
         role: 'user',
+        // We first ask it to write a Poem, to show the case where there's text output before function calls, since that is also supported,
         content: 'What is the weather in San Francisco and in Tokyo? First write a short poem.',
       },
     ],
